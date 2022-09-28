@@ -14,18 +14,45 @@
             background-color: #636e72;
             text-align: center;
 
+
         }
 
-        .single,a{
+        .anki {
+            margin: 40px;
+            font-style: italic;
+
+        }
+
+       .single a{
             font-size: 18px;
-            font-weight: bold;
+
             text-transform: uppercase;
             text-align: center;
             text-decoration: none;
             font-family: 'Sofia', cursive;
             background-color: black;
             color: white;
-            text-decoration: none;
+            margin: 20px;
+
+        }
+        .div1{
+            border: 2px solid black;
+            background-color:black;
+            color: #636e72;
+            text-align: center;
+        
+        }
+
+        footer div span {
+            margin: 10px;
+            font-style: italic;
+
+        }
+
+        .bold {
+            font-size: larger;
+            font-weight: bolder;
+            font-style: italic;
         }
     </style>
 
@@ -34,37 +61,42 @@
 <body>
 
     <header>
-        <p class="name"><strong><i class="fa fa-user" aria-hidden="true"></i> Ankita Dounde&nbsp;&nbsp;&nbsp;&nbsp;<i
-                    class="fa fa-phone-square" aria-hidden="true"></i> 8624880388 &nbsp;&nbsp;&nbsp;<i
-                    class="fa fa-envelope" aria-hidden="true"></i> ankitadounde88@gmail.com</strong></p>
+        <p class="name">
+            <span class="anki"><i class="fa fa-user" aria-hidden="true"></i>Ankita Dounde</span>
+            <span class="anki"><i class="fa fa-phone-square" aria-hidden="true"></i> 8624880388 </span>
+            <span class="anki"><i class="fa fa-envelope" aria-hidden="true"></i> ankitadounde88@gmail.com</span>
+        </p>
 
     </header>
+    <div class="div1">
 
     <nav class="single">
-        <a href="home.html" target="my_frame" color white;>HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="my_frame">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="my_frame">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="my_frame">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="hobbies.html" target="my_frame">HOBBIES</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personal.html" target="my_frame">PERSONAL</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="other.html" target="my_frame">OTHERS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-
+        <a href="home.html" target="my_frame">HOME</a>
+         <a href="techStack.html" target="my_frame">TECH STACK</a>
+        <a href="education.html" target="my_frame">EDUCATION</a>
+        <a href="project.html" target="my_frame">PROJECT</a>
+        <a href="hobbies.html" target="my_frame">HOBBIES</a>
+        <a href="personal.html" target="my_frame">PERSONAL</a>
+        <a href="other.html" target="my_frame">OTHERS</a>
     </nav>
+    </div>
     <br>
 
 
     <iframe name="my_frame" width="900px" height="600" id="i_frame" style="border:none;"></iframe>
     <footer>
+        <div>
 
-        <p><strong>Follow me</strong>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"
-                    aria-hidden="true"></i></a>&nbsp;&nbsp;
-            <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"
-                    aria-hidden="true"></i></a>&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;
-            <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter-square"
-                    aria-hidden="true"></i></a>
-        </p>
+            <span class="bold">Follow me</span>
+            <span> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"
+                        aria-hidden="true"></i></a></span>
+            <span><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a></span>
+            <span><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+            <span> <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter-square"
+                        aria-hidden="true"></i></a></span>
+            </p>
+        </div>
     </footer>
 </body>
 
