@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Application Form</title>
+    
+    <style>
+        td{
+            font-size: large;
+            font-style: normal;
+            color: white;
+        
+        }
+        h5{
+            text-shadow: 2px 2px 4px black;
+           
+            font-size: larger;
+            font-style: italic;
+            font-weight: 400;
+            
+            
+        }
+        input[type="text"]{
+            color: black;
+            height: 20px;
+            width: 200px;
+            background-color: bisque;
+            border-radius: 5px;
+            border-width: 2px;
+
+        }
+        input[type="password"]{
+            border-radius: 5px;
+        }
+        input[type="number"]{
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            color:white;
+            background-color: black;
+            
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        input[type="button"]{
+            color:white;
+            background-color: black;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+
+        }
+        
+        form{
+            border: 2px solid black ;
+            background-color:rgb(80, 83, 88);
+            
+    }
+      td,select{
+        border-radius: 5px;
+     }  
+     .pre{
+        border-radius: 20px;
+     }
+     input[type="date"]{
+        border-radius: 5px;
+     }
+     
+    </style>
+</head>
+
+<body>
+    <h5>Student Registration Form</h5>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Full Name:</td>
+                    <td><input type="text" autofocus required maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td>Email Address:</td>
+                    <td><input type="text" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Profile Photo:</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender">male
+                    <input type="radio" name="gender">Female</td>
+
+                </tr>
+                <tr>
+                    <td>Marital Status:</td>
+                    <td><input type="radio" name="Marital Status">Yes
+                    <input type="radio" name="Marital Status">No</td>
+                </tr>
+                <tr>
+                    <td><label>Known Tools & Technology:</label> </td>
+                  <td>  <input type="checkbox"><label>Angular</label>
+                    <input type="checkbox"><label>React</label>
+                    <input type="checkbox"><label>Python</label>
+                    <input type="checkbox"><label>Java</label>
+                    <input type="checkbox"><label>Jenkin</label>
+                    <input type="checkbox"><label>GIT</label>
+                    <input type="checkbox"><label>Database</label></td>
+
+                </tr>
+                <tr>
+                    <td>Profile:</td>
+                    <td>
+                        <select>
+                            <option>UI Developer</option>
+                            <option>Backend Developer</option>
+                            <option>Full stack Developer</option>
+                            <option>DevOps Engineer</option>
+                            <option>Tester</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td><input type="text" value="India" disabled></td>
+                </tr>
+                <tr>
+                    <td >Present Address:</td>
+                    <td><textarea rows="7" cols="30"class="pre"></textarea></td>
+                </tr>
+                <tr>
+                    <td> <input type="submit"></td>
+                    <td><input type="button" value=clear></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
